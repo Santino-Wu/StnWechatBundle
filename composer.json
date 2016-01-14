@@ -1,0 +1,26 @@
+{
+    "name": "stn/wechat-bundle",
+    "description": "Wechat SDK for Symfony framework",
+    "type" : "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santino Wu",
+            "email": "santinowu.wsq@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/Santino-Wu/StnWechatBundle",
+    "keywords" : [ "symfony", "bundle", "wechat" ],
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.1"
+    },
+    "target-dir" : "Stn/WechatBundle",
+    "autoload" : {
+        "psr-0" : {
+            "Stn\\WechatBundle" : ""
+        }
+    }
+}
